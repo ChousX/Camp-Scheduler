@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mindful-girder-244420",
+  "private_key_id": "033802c49fdc5849e7ed9183539c2d41b3f0281b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCRGZbWBIrajlb3\nzn7IjH/zyHawgXv+tSWOUG9c24rBu/6Wl3q9yg0oc7TEEFWh7sVFx42SkqbyEHUO\n9+SjS4b4Gs8R2IjaBt5H+j99fBZ/mQ2fRSkf5A/TezX2PW307u3UvX02JnqVsTBA\nc3RHMJMplS106tA9D7tIZFlys5yp2Rj1cIwMSszDoOZ08J9Fiaar2J5MJv5EA/cn\no/YSx0RrYmtiXDvhJY5Jh1JgpKVgN+4apKKSyzCuoAK2Amg8wB9D+cbtQKs9GYOu\n4s4rrMO9ioE8ZXG4hUxNPwk7CNS7YIQkB99kzJbXK54lTmBIrck4ub8LcSNza41k\nmnAy+O4VAgMBAAECggEAFaoFbFTnSnSAJaWuJlFb9VET74yVr9TqE5KM3gdlc0GX\nZHKff+DAEC8eaTurHW9iAuYljCHbTT8Jyz9V4s+vCjIugpKa9DqcS5Dgk+LIFSsL\n7qDL4BgUCNZXmzlWxoA6AE5+eGxMVzdKZgUW8l4dStMcI12/064an1dkR4zrsiwf\nS7j7eOtC3YsZ2fQb1uUIuU8JrhFvz4SjHpKOj6TNlLFBse9pIflieSmYhIBGA/AE\nOI+Bjz89IBlocRKKgKOMmFrB8gFHc/ARWcWjvi02vnoS2o+odqJMGn1akDSN+zrw\nKQZS0Uhu6vlhn9I7GqDjOeQC1ew1YZH7orhLM/117QKBgQDGKkE1FKce5xwsYllA\nqWPwvVmCoSaUKomLj8iEpnao1E8j2ooSMKOixLs1ZwbJe0MBn+KEy5Ml3wzLgoOQ\nHrpfhOonEmRfVWEc4NyajheF76AaWKh+45czBpFV/aBKNXEWSUWxtNmTixr51n7n\nxqSrFnEfXnpyT3IJLWWH8SFSlwKBgQC7cp4bSxQa4rhIZSlBzhGTVfm0sIuGCtDE\nGG2cAqlEPyxwBmsiF6BjOVfG5d6SSzLsud6NQ1bMsTZt5PTFCkS3TGGwNnMVy6Jk\nMVZZm7oAdh57l/v5Ln2Uqfq4nV6KylowI194tJmBd9pq4DmxQhGLvAIfeyzd1PRU\ntlu1T7eWMwKBgQCKn0JwNFtX9cmyjrXq0tPzszFrfPm0yjDfrRxTFvOI1MPry9Os\nN9QwZ7ih+ck4pn5QI51c0d/ErUyRDGKmLaioax01adtHCT3e6rnHcECqU99GruBn\nqyO48Q43/izj3JCYS3dygZV2befX/6FU15OXjyJhFEFJt6OJIfWVbCuoTwKBgH3e\n8ZySReXn6Kd0hsfRgKvXR961znssOBP182SXxOI3KbfwF3DFPMZkczT0lwjVxlSA\nW5mwZlD9jvcsj9DgnFQZzl9tsMop+9ob50g08intJ3sHDAS/20RBAEOIKTw5tWYt\n2qZLX+k4ekraVuNY4j9a+HH7XJ15qrhX3C1cYoNRAoGBALj7qlys5HvKi5dvxmwd\n3U2Mr1v7CYDlDPW4UbGtVpGECDcrJuKMiYaBexZ98NyHy9hxV1sKkM3bHRQV3BZ/\nw7fTfXm9O6i2AnRkE+EkG2iuIPwCiZMdRzCcoJS27P2naJMOHPh4wc0cO4gnMGhM\nVIXDlw69J2uHdqtdK+NHoPJQ\n-----END PRIVATE KEY-----\n",
+  "client_email": "bbc-schedule-admin@mindful-girder-244420.iam.gserviceaccount.com",
+  "client_id": "102583677473120539803",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bbc-schedule-admin%40mindful-girder-244420.iam.gserviceaccount.com"
+}
