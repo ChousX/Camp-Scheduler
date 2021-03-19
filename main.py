@@ -18,8 +18,11 @@ SAMPLE_SPREADSHEET_ID = '1LiWgohYT4O-ZgNTHM0bG9Nkv3kjKsKKs5M7awnu5O-I'
 def run():
     creds = service_account.Credentials.from_service_account_file(
     SERVICE_ACCOUNT_FILE, scopes=SCOPES)
+
     service = build('sheets', 'v4', credentials=creds)
+
     sheet = service.spreadsheets()
+
     num_people = len(sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID, range="Input!A2:A1000").execute().get("values", []))
     tasks = get_tasks(sheet)
     num_tasks = len(tasks)
@@ -58,19 +61,23 @@ def run():
                     cell += 'NSP' #No Suitable People
             else:
                 groupings = get_all_groupings(candidates, people_needed)
+                
                 filtered_groupings = apply_blocks(groupings, block_groups, block_schedule, days_id, task_id)
                 ordered_groupings = priorities_groupings(groupings, usage, task_id)
-                chosen = ordered_groupings.pop()
                 
-                no_comma = len(chosen) - 1
-                p_id = 0
-                # print(chosen)
-                for p in chosen:
-                    cell += p[0]
-                    usage[p[1]][task_id] += 1
-                    if not p_id == no_comma:
-                        cell += ', '
-                    p_id += 1
+                if ordered_groupings:
+                    chosen = ordered_groupings.pop()        
+                    no_comma = len(chosen) - 1
+                    p_id = 0
+                    # print(chosen)
+                    for p in chosen:
+                        cell += p[0]
+                        usage[p[1]][task_id] += 1
+                        if not p_id == no_comma:
+                            cell += ', '
+                        p_id += 1
+                else:
+                    cell += 'NSP' #No Suitable People
     
                 
             output_day.append(cell)
